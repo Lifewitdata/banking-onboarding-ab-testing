@@ -1,0 +1,8 @@
+table,rows,columns
+users,250000,5
+assignments,250000,4
+events,5901194,5
+transactions,698846,6
+support,16517,5
+fraud,982,5
+tracking_issues,31675,2

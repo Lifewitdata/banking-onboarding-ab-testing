@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "validate_data",
+    "seconds": 1.245
+  },
+  {
+    "stage": "build_database",
+    "seconds": 0.594
+  },
+  {
+    "stage": "build_metrics",
+    "seconds": 1.584
+  },
+  {
+    "stage": "analyse_experiment",
+    "seconds": 2.359
+  },
+  {
+    "stage": "create_charts",
+    "seconds": 3.827
+  },
+  {
+    "stage": "build_documentation",
+    "seconds": 0.189
+  },
+  {
+    "stage": "build_notebooks",
+    "seconds": 2.176
+  }
+]

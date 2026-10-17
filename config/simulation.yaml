@@ -1,0 +1,18 @@
+seed: 20261017
+n_users: 250000
+batch_size: 25000
+start_date: '2026-01-01'
+enrolment_days: 84
+followup_days: 30
+background_events_per_user: 17
+experiment:
+  allocation: 0.5
+  alpha: 0.05
+  power: 0.80
+  baseline_activation: 0.45
+  minimum_detectable_effect: 0.01
+  srm_alpha: 0.001
+  support_margin: 0.005
+  failure_margin: 0.005
+  fraud_margin: 0.001
+  practical_lift: 0.005

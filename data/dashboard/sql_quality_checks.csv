@@ -1,0 +1,15 @@
+check_name,failures
+duplicate_users,0
+duplicate_assignments,0
+assignments_without_user,0
+users_without_assignment,0
+transaction_orphans,0
+duplicate_transactions,0
+funding_before_verification,0
+payment_before_funding,0
+negative_amount,0
+fraud_transaction_orphans,0
+transaction_before_assignment,0
+transaction_after_followup,0
+immature_primary_population,0
+fraud_before_transaction,0

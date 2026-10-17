@@ -1,0 +1,22 @@
+{
+  "app_tests_passed": 6,
+  "tested_pages": [
+    "Overview",
+    "Customer journey",
+    "Experiment",
+    "Retention",
+    "Data quality",
+    "Methodology"
+  ],
+  "tested_interactions": [
+    "weekly trend weighting",
+    "funnel counts",
+    "device segments",
+    "all experiment outcomes",
+    "cohort subset",
+    "empty cohort selection",
+    "all documents"
+  ],
+  "raw_data_required_for_app": false,
+  "deployed": false
+}

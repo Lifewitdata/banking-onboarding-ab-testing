@@ -1,0 +1,54 @@
+{
+  "synthetic": true,
+  "decision": "SIMULATED LAUNCH CRITERIA MET",
+  "srm_p_value": 0.6950582138022077,
+  "planned_n_per_arm": 38926,
+  "observed_control_n": 124902,
+  "observed_treatment_n": 125098,
+  "primary": {
+    "metric": "activated_7d",
+    "control_n": 124902,
+    "treatment_n": 125098,
+    "control_success": 60496,
+    "treatment_success": 65440,
+    "control_rate": 0.48434772861923747,
+    "treatment_rate": 0.5231098818526275,
+    "difference": 0.03876215323339005,
+    "relative_lift": 0.08002959638913132,
+    "ci_low": 0.034844496248351946,
+    "ci_high": 0.04267812609605288,
+    "p_value": 1.1033164885204961e-83,
+    "holm_p": null
+  },
+  "guardrails": [
+    {
+      "metric": "support_7d",
+      "difference": -0.008479599836036918,
+      "upper_bound": -0.006365651493581764,
+      "margin": 0.005,
+      "passes": true
+    },
+    {
+      "metric": "failure_7d",
+      "difference": -0.013287686759356404,
+      "upper_bound": -0.010499895673146114,
+      "margin": 0.005,
+      "passes": true
+    },
+    {
+      "metric": "fraud_30d",
+      "difference": 0.00018585355423600272,
+      "upper_bound": 0.0007192123379480186,
+      "margin": 0.001,
+      "passes": true
+    }
+  ],
+  "restricted_time": {
+    "control_days": 4.970498564115006,
+    "treatment_days": 4.789292166978126,
+    "difference_days": -0.18120639713688025,
+    "ci_low": -0.19982119197989012,
+    "ci_high": -0.16259160229387037
+  },
+  "additional_activations_per_100000": 3876.215323339005
+}

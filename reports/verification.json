@@ -1,0 +1,24 @@
+{
+  "pipeline": "Completed successfully from supplied raw data",
+  "tests_passed": 12,
+  "notebooks": {
+    "01_data_quality_and_eda.ipynb": {
+      "code_cells": 15,
+      "executed_cells": 15,
+      "errors": 0
+    },
+    "02_funnel_and_retention.ipynb": {
+      "code_cells": 14,
+      "executed_cells": 14,
+      "errors": 0
+    },
+    "03_ab_test_evaluation.ipynb": {
+      "code_cells": 13,
+      "executed_cells": 13,
+      "errors": 0
+    }
+  },
+  "raw_files_sha256_verified": 70,
+  "direct_pandas_imports": false,
+  "to_pandas_calls": false
+}

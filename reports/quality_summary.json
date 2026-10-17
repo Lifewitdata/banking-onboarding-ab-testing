@@ -1,0 +1,22 @@
+{
+  "duplicate_rows_removed": 8800,
+  "delayed_events_retained": 17605,
+  "statuses": [
+    {
+      "quality_status": "before_signup",
+      "len": 1169
+    },
+    {
+      "quality_status": "missing_user",
+      "len": 2932
+    },
+    {
+      "quality_status": "orphan_user",
+      "len": 1169
+    },
+    {
+      "quality_status": "valid",
+      "len": 5887124
+    }
+  ]
+}
