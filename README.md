@@ -1,20 +1,24 @@
 # Banking Onboarding Lab — Streamlit + Polars
 
+**Live app: <https://app-uqpgve5fduneydt94nw42m.streamlit.app/>**
+
 An interactive product analytics portfolio app based on **250,000 synthetic users, 5,901,194 events and 698,846 transactions**. No real Monzo customer data or affiliation.
 
 The dashboard presents the completed analysis using compact saved extracts. It does not require the 164 MB dataset archive, a database server, API key, or HTML report to start.
 
-## Deploy this repository
+## Live deployment
 
-This repository is the upload package: `streamlit_app.py` and `requirements.txt` sit at the root, and the app reads `data/dashboard`, `reports` and `docs` at startup.
+The dashboard runs on Streamlit Community Cloud at <https://app-uqpgve5fduneydt94nw42m.streamlit.app/>, deployed from `main` with Python 3.12 and no secrets. Pushing to `main` rebuilds it automatically; the first visit after a period of inactivity is a cold start and takes a few seconds.
+
+`streamlit_app.py` and `requirements.txt` sit at the repository root, and the app reads `data/dashboard`, `reports` and `docs` at startup, so re-creating this deployment needs only three settings:
 
 1. Open [Streamlit Community Cloud](https://share.streamlit.io/) and sign in with GitHub.
-2. Create an app, choose this repository and the `main` branch, and set **Main file path** to `streamlit_app.py`.
-3. In advanced settings select **Python 3.12**, then deploy. No secrets are required.
+2. Create an app from this repository on the `main` branch with **Main file path** `streamlit_app.py`.
+3. In advanced settings select **Python 3.12**, then deploy.
 
 Streamlit Community Cloud hosts the running app; GitHub only stores the code. GitHub Pages cannot run a Python Streamlit app.
 
-Verified locally against the pinned `streamlit==1.66.0`, `polars==2.0.0`, `plotly==7.1.0`: all six pages and their interactions pass Streamlit AppTest. Deploying the steps above is what creates the live URL.
+Tested against the pinned `streamlit==1.66.0`, `polars==2.0.0`, `plotly==7.1.0`: all six pages and their interactions pass Streamlit AppTest, and the deployed app serves 250,000 assigned users with 48.43% control against 52.31% treatment.
 
 Official deployment guidance: [repository/entrypoint selection](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy), [file organisation](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/file-organization), [dependencies](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies).
 

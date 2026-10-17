@@ -18,5 +18,6 @@
     "all documents"
   ],
   "raw_data_required_for_app": false,
-  "deployed": false
+  "deployed": true,
+  "deployed_url": "https://app-uqpgve5fduneydt94nw42m.streamlit.app/"
 }
